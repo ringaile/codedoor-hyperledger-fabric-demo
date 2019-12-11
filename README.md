@@ -6,6 +6,7 @@ git clone https://github.com/hyperledger/fabric-samples.git
 
 3. we use basic-network to run our application
 ```
+cd basic-network
 ./start.sh && docker-compose -f docker-compose.yml up -d cli
 ```
 
