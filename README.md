@@ -2,7 +2,7 @@
 https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html
 
 2. clone fabric samples from github
-git clone https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html
+git clone https://github.com/hyperledger/fabric-samples.git
 
 3. we use basic-network to run our application
 ./start.sh && docker-compose -f docker-compose.yml up -d cli
